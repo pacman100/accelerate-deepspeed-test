@@ -6,6 +6,6 @@ time accelerate launch ./../run_cls_no_trainer.py \
   --per_device_train_batch_size 8 \
   --learning_rate 2e-5 \
   --num_train_epochs 3 \
-  --output_dir "/tmp/mrpc/" \
+  --output_dir "/tmp/mrpc/no_deepspeed" \
   --with_tracking \
   --report_to "wandb" \
